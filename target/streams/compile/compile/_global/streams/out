@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E008] Not Found Error: C:\Users\Eng 02\Desktop\ParaProject\src\main\scala\main.scala:12:11 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m12 |[0m[33mimport[0m org.jpl7.*[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m   |[0m       ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m   |[0m       value jpl7 is not a member of org[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E049] Reference Error: C:\Users\Eng 02\Desktop\ParaProject\src\main\scala\main.scala:1402:15 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1402 |[0m    [33mval[0m [36mmove[0m = readLine([31m"Enter next move:"[0m)[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m     |[0m               ^^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mReference to readLine is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mit is both imported by import io.StdIn._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mand imported subsequently by import <error value jpl7 is not a member of org>._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E049] Reference Error: C:\Users\Eng 02\Desktop\ParaProject\src\main\scala\main.scala:1421:19 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m1421 |[0m  [33mval[0m [36moption[0m:[35mInt[0m = readInt()[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m     |[0m                   ^^^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mReference to readInt is ambiguous,[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mit is both imported by import io.StdIn._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0mand imported subsequently by import <error value jpl7 is not a member of org>._[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m     |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
